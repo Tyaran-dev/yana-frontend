@@ -61,12 +61,12 @@ const HeroSection = () => {
             aria-hidden="true"
           />
           <div className="text-center z-50 text-white max-w-3xl px-4">
-            <span
-              className="inline-block text-xs font-semibold tracking-widest uppercase mb-4 px-4 py-1.5 rounded-full"
-              style={{ background: "rgba(255,94,65,0.22)", color: "#FF5E41" }}
-            >
-              {t("heroSection.badge") ?? "Hotel Booking"}
-            </span>
+              {/* <span
+                className="inline-block text-xs font-semibold tracking-widest uppercase mb-4 px-4 py-1.5 rounded-full"
+                style={{ background: "rgba(255,94,65,0.22)", color: "#FF5E41" }}
+              >
+                {t("heroSection.badge") ?? "Hotel Booking"}
+              </span> */}
             <h1 className="font-extrabold text-4xl md:text-6xl lg:text-7xl leading-tight tracking-tight mb-5">
               {t("heroSection.mainHeading")}
             </h1>
