@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { getAmadeusToken } from '../../../utils/amadeus-token';
 
 export async function GET(request) {
     const { searchParams } = new URL(request.url);
@@ -9,7 +8,6 @@ export async function GET(request) {
     const travelers = searchParams.get('travelers') || '1';
 
     try {
-        // const accessToken = await getAmadeusToken();
 
         // Step 1: Fetch hotels by city
         const cityUrl = `https://test.api.amadeus.com/v1/reference-data/locations/hotels/by-city`;
