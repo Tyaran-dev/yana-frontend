@@ -224,9 +224,8 @@ const HotelSearch = ({ className }: { className?: string }) => {
               <select
                 value={selectedNationality}
                 onChange={(e) => setSelectedNationality(e.target.value)}
-                className={`w-full border rounded-xl pl-9 pr-4 py-3 text-sm appearance-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary border-primary/25 ${
-                  selectedNationality ? 'text-gray-900' : 'text-gray-400'
-                }`}
+                className={`w-full border rounded-xl pl-9 pr-4 py-3 text-sm appearance-none transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary border-primary/25 ${selectedNationality ? 'text-gray-900' : 'text-gray-400'
+                  }`}
               >
                 <option disabled value="">
                   Select your nationality
@@ -250,9 +249,8 @@ const HotelSearch = ({ className }: { className?: string }) => {
               <button
                 type="button"
                 onClick={() => setOpen(!open)}
-                className={`w-full flex items-center gap-2 border rounded-xl px-4 py-3 text-sm text-left transition-all duration-200 hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 bg-white ${
-                  open ? 'border-primary shadow-[0_0_0_2px_#13545422]' : 'border-primary/25'
-                }`}
+                className={`w-full flex items-center gap-2 border rounded-xl px-4 py-3 text-sm text-left transition-all duration-200 hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 bg-white ${open ? 'border-primary shadow-[0_0_0_2px_#13545422]' : 'border-primary/25'
+                  }`}
               >
                 <svg
                   width="16"

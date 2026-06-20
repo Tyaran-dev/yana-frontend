@@ -83,6 +83,31 @@ export default function Page() {
     return () => clearTimeout(timer);
   }, [priceRange]);
 
+  const searchKey = useMemo(() => {
+    if (!searchParamsData) return "";
+    return JSON.stringify({
+      CheckIn: searchParamsData.CheckIn,
+      CheckOut: searchParamsData.CheckOut,
+      Code: searchParamsData.Code,
+      Type: searchParamsData.Type,
+      GuestNationality: searchParamsData.GuestNationality,
+      PaxRooms: searchParamsData.PaxRooms,
+    });
+  }, [searchParamsData]);
+
+  const [prevSearchKey, setPrevSearchKey] = useState(searchKey);
+  if (searchKey !== prevSearchKey) {
+    setPrevSearchKey(searchKey);
+    setCurrentPage(1);
+    setSortBy("none");
+    setNameSearch("");
+    setDebouncedNameSearch("");
+    setPriceRange([10, 10000]);
+    setDebouncedPriceRange([10, 10000]);
+    setStarRatings([]);
+    setAccumulatedStarOptions([]);
+  }
+
   // Local, flattened state that the UI can rely on
   const [hotelsData, setHotelsData] = useState<HotelsData>({
     hotels: [],
