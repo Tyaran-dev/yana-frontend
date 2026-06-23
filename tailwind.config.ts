@@ -46,7 +46,7 @@ const config: Config = {
       },
       backgroundImage: {
         heroFligthsBanner: "url('/assets/images/hero-hotels.jpg')",
-        heroHotelsBanner: "url('/assets/hero-flights.webp')",
+        heroHotelsBanner: "url('/assets/background.jpeg')",
         greenGradient:
           "linear-gradient(58.16deg, #016733 -6.21%, #1C1466 103.2%)",
         heroCard: "url('/assets/images/hero-card.png')",

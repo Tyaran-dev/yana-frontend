@@ -47,7 +47,7 @@ const HeroSection = () => {
 
   return (
     <div
-      className={`w-full relative bg-heroHotelsBanner min-h-[70vh] 2xl:min-h-auto py-20 lg:py-32 flex md:items-center bg-bottom bg-no-repeat bg-cover`}
+      className={`w-full relative bg-heroHotelsBanner bg-center bg-cover min-h-[70vh] 2xl:min-h-auto py-20 lg:py-32 flex md:items-center  bg-no-repeat `}
     >
       <Section className="">
         <div className="gap-24  flex flex-col  justify-center items-center ">
@@ -56,7 +56,7 @@ const HeroSection = () => {
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(135deg, rgba(19,84,84,0.88) 0%, rgba(19,84,84,0.60) 50%, rgba(0,0,0,0.30) 100%)",
+                "linear-gradient(135deg, rgba(19,84,84,0.88) 0%, rgba(19,84,84,0.60) 20%, rgba(0,0,0,0.30) 100%)",
             }}
             aria-hidden="true"
           />

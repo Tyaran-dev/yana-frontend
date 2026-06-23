@@ -227,22 +227,22 @@
     "errorAlert": "Something went wrong. Please try again."
   },
   "about-us": {
-    "title": "About Tayyran",
-    "subtitle": "Your journey to seamless travel begins here",
+    "title": "About YANA Holidays",
+    "subtitle": "Your trusted B2B travel partner for seamless booking experiences",
     "ourStory": {
       "title": "Our Story",
-      "description": "Tayaran was launched with a clear vision: that travel is not just about moving from one place to another, but a complete experience that begins with planning and booking, and extends all the way to reaching your destination. Therefore, the project developed a comprehensive digital platform that allows users to compare thousands of flight and hotel options and choose the most suitable ones with ease and transparency, while also offering innovative services unprecedented in the local market."
+      "description": "YANA Holidays is a specialized B2B travel platform designed to support travel agencies and businesses with access to flights, hotels, and travel services through a trusted global network of suppliers and partners. We are committed to delivering a seamless booking experience, competitive travel solutions, and dedicated customer support that helps our partners operate efficiently and serve their customers with confidence."
     },
     "ourVision": {
       "title": "Our Vision",
       "cards": {
-        "leadingPlatform": {
-          "title": "Leading Saudi Platform",
-          "description": "We aim to be the leading Saudi platform that combines flight and hotel services in one place, focusing on smart technology and an exceptional user experience."
+        "strongPartnerships": {
+          "title": "Strong Partnerships",
+          "description": "The name YANA is inspired by the phrase 'You Are Not Alone', reflecting our belief that strong partnerships and reliable support are essential in the travel industry. This commitment drives everything we do, from the technology we build to the service we provide."
         },
-        "vision2030": {
-          "title": "Vision 2030 Partner",
-          "description": "We strive to play an active role in Saudi Arabia's Vision 2030 by supporting the growth of the tourism sector and enhancing the Kingdom's position as a leading global destination."
+        "industryExpertise": {
+          "title": "Industry Expertise",
+          "description": "At YANA Holidays, we combine industry expertise, trusted partnerships, and customer-focused support to help our clients grow, succeed, and create better travel experiences."
         }
       }
     },
@@ -251,51 +251,39 @@
       "services": [
         {
           "title": "Flight Bookings",
-          "description": "Competitive flight bookings with major global and regional airlines"
+          "description": "Access to competitive airfare from a global network of trusted suppliers"
         },
         {
-          "title": "Hotel Deals",
-          "description": "Diverse hotel deals suitable for all budgets"
+          "title": "Hotel Reservations",
+          "description": "Extensive hotel inventory with competitive rates worldwide"
         },
         {
-          "title": "24/7 Support",
-          "description": "Technical support around the clock to ensure your comfort"
-        },
-        {
-          "title": "Fast & Easy",
-          "description": "A fast and easy-to-use interface to book your trip in minutes"
-        },
-        {
-          "title": "Safe Payments",
-          "description": "Multiple secure payment methods that suit everyone"
-        },
-        {
-          "title": "Exclusive Offers",
-          "description": "Seasonal and exclusive offers for frequent travelers"
+          "title": "Travel Services",
+          "description": "Comprehensive travel solutions tailored to your business needs"
         }
       ]
     },
     "whyChooseUs": {
-      "title": "Why Choose Us?",
-      "description": "Because we believe that travel is a personal experience that deserves the best attention to detail. We combine modern technology with extensive expertise to provide a service that balances quality, precision, and genuine care for your comfort.",
+      "title": "Why Choose Us",
+      "description": "We combine industry expertise, trusted partnerships, and customer-focused support to help our partners grow, succeed, and create better travel experiences.",
       "features": {
-        "userFocused": {
-          "title": "User-Focused",
-          "description": "Built around your needs"
+        "partnerSupport": {
+          "title": "Partner Support",
+          "description": "Dedicated support to help your business thrive"
         },
         "technology": {
           "title": "Technology",
-          "description": "Smart, modern solutions"
+          "description": "Seamless booking experience through innovative tech"
         },
         "excellence": {
           "title": "Excellence",
-          "description": "Quality in every detail"
+          "description": "Commitment to quality in everything we do"
         }
       }
     },
     "cta": {
-      "title": "Ready to Start Your Journey?",
-      "description": "With our platform, your journey will be easier, faster, and closer to what you imagine."
+      "title": "Ready to Partner with Us?",
+      "description": "Join our network of travel agencies and businesses benefiting from our B2B travel solutions"
     }
   },
   "SignUp": {
@@ -388,249 +376,206 @@
     "timerPersists": "Resend timer will persist even if you refresh the page"
   },
   "PrivacyPolicy": {
-    "title": "Privacy Policy – Tayyran",
-    "subtitle": "A Saudi platform for hotel and flight bookings",
-    "companyName": "QUSA Travel and Tourism Company – Saudi Arabia",
-    "lastUpdated": "Last Updated: December 2025",
-    "cardTitle": "Privacy Information",
-    "cardDescription": "Click on any section below to learn more about how we handle your data",
-    "contactTitle": "Contact Information",
-    "contactDescription": "For any privacy-related inquiries, please contact us:",
-    "companyAddress": "2339 Al Yasmin District – Anas Bin Malik Street – Office No. 10 – First Floor – Riyadh – Kingdom of Saudi Arabia",
-    "backToHome": "Back to Home",
+    "title": "Privacy Policy",
+    "companyName": "YANA Holidays",
+    "subtitle": "YANA Holidays is committed to protecting the privacy of its users and safeguarding their personal data in accordance with the applicable laws and regulations of the Kingdom of Saudi Arabia, including the Personal Data Protection Law (PDPL). By using the YANA Holidays platform, you consent to the collection, use, and processing of your personal data as described in this Privacy Policy.",
+    "lastUpdated": "Last Updated: January 2026",
+    "cardTitle": "Privacy Policy",
+    "cardDescription": "We take your privacy seriously. This policy explains how we collect, use, and protect your personal information.",
     "sections": {
-      "whoWeAre": {
-        "title": "Who We Are",
-        "content": "A Saudi platform for hotel and flight bookings\n\n\"Tayyran\" is an innovative Saudi platform that makes it easy for you to plan your trips, bringing together the best flight and hotel offers in one place.\nWe designed the platform to provide you with a smooth, transparent, and fast user experience where you can choose what's best for you in seconds—with the highest levels of confidence.\n\nTayyran is the trade name of QUSA Travel and Tourism Company, located at:\n2339 Al Yasmin District – Anas Bin Malik Street – Office No. 10 – First Floor – Riyadh – Kingdom of Saudi Arabia.\n\nFor any privacy-related inquiries:\ninfo@qessatravel.com"
-      },
-      "dataWeCollect": {
-        "title": "Personal Data We Collect",
-        "content": "• Identity Data: Full name – Passport number – Nationality – Date of birth.\n• Contact Data: Phone number – Email address – Residential address.\n• Financial Data: Payment card – Invoices – Transaction history.\n• Travel Data: Flight tickets – Hotels – Visas – Special requests.\n• Sensitive Data (if necessary): Health information required for travel with your explicit consent."
+      "informationCollect": {
+        "title": "1. Information We Collect",
+        "content": "We may collect various types of information, including:",
+        "points": [
+          "Full name.",
+          "Company or travel agency name.",
+          "Phone number.",
+          "Email address.",
+          "Account and login information.",
+          "Booking and transaction details.",
+          "Billing and payment information.",
+          "Technical information such as IP address, browser type, operating system, and usage data."
+        ]
       },
       "howWeCollect": {
-        "title": "How We Collect Data",
-        "content": "• Through booking on the website or application\n• Direct communication with us\n• Visiting our offices\n• Through airlines, hotels, and service partners"
+        "title": "2. How We Collect Information",
+        "content": "We collect information through:",
+        "points": [
+          "Account registration and profile creation.",
+          "Use of the Platform and its services.",
+          "Communication with us via email or other contact channels.",
+          "Cookies and similar technologies."
+        ]
       },
       "howWeUse": {
-        "title": "How We Use Your Data",
-        "content": "• Processing bookings\n• Communication regarding trips and payments\n• Providing customer service\n• Sending offers with prior consent\n• Compliance with laws and regulations"
+        "title": "3. How We Use Information",
+        "content": "Your information may be used for the following purposes:",
+        "points": [
+          "Creating and managing user accounts.",
+          "Processing bookings and providing services.",
+          "Delivering customer support and technical assistance.",
+          "Communicating with users regarding accounts and services.",
+          "Improving platform performance and user experience.",
+          "Complying with legal and regulatory obligations.",
+          "Preventing fraud and enhancing platform security."
+        ]
       },
       "dataSharing": {
-        "title": "Data Sharing",
-        "content": "We may share your data with:\n• Airlines\n• Hotels\n• Payment companies\n• Government authorities\n• Technical service providers\n\nWe do not sell your data to any party."
+        "title": "4. Sharing of Information",
+        "content": "Personal data may be shared when necessary with:",
+        "points": [
+          "Airlines.",
+          "Hotels.",
+          "Suppliers and service partners.",
+          "Payment service providers.",
+          "Governmental or regulatory authorities when required by law.",
+          "We do not sell or rent personal data to third parties for marketing purposes."
+        ]
       },
-      "internationalTransfer": {
-        "title": "International Data Transfer",
-        "content": "Data may be transferred outside the Kingdom only for completing bookings with guaranteed compliance with PDPL controls."
-      },
-      "dataProtection": {
-        "title": "Data Protection",
-        "content": "We use:\n• Encryption\n• Fraud detection systems\n• Secure servers\n• Access permission restrictions"
+      "dataSecurity": {
+        "title": "5. Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, loss, or misuse. While we take reasonable security measures, no method of data transmission or storage over the Internet can be guaranteed to be completely secure."
       },
       "dataRetention": {
-        "title": "Data Retention",
-        "content": "We retain data only throughout the period of:\n• Service provision\n• Legal requirements\n• Dispute management"
+        "title": "6. Data Retention",
+        "content": "We retain personal data for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable laws and regulatory obligations."
       },
       "userRights": {
-        "title": "User Rights",
-        "content": "You have the right to:\n• Access your data\n• Request modification\n• Request deletion\n• Object to processing\n• Withdraw consent\n\nVia email: info@qessatravel.com"
+        "title": "7. Data Subject Rights",
+        "content": "In accordance with applicable laws in the Kingdom of Saudi Arabia, you may have the right to:",
+        "points": [
+          "Know what personal data we process about you.",
+          "Request access to your personal data.",
+          "Request correction or updating of inaccurate information.",
+          "Request deletion of personal data where permitted by law.",
+          "Withdraw consent for data processing where legally applicable."
+        ]
       },
-      "dataBreach": {
-        "title": "Data Breach",
-        "content": "We will notify you and the competent authority in the event of any breach in accordance with legal requirements."
+      "cookies": {
+        "title": "8. Cookies",
+        "content": "The Platform may use cookies and similar technologies to improve user experience, analyze performance, and enhance services. Users may control or disable cookies through their browser settings; however, doing so may affect certain Platform functionalities."
       },
-      "updates": {
-        "title": "Updates",
-        "content": "The policy may be updated, and amendments will be published on the website."
+      "externalLinks": {
+        "title": "9. External Links",
+        "content": "The Platform may contain links to third-party websites or services. YANA Holidays is not responsible for the privacy practices, policies, or content of such external websites, and users are encouraged to review their respective privacy policies."
+      },
+      "policyChanges": {
+        "title": "10. Changes to This Privacy Policy",
+        "content": "YANA Holidays reserves the right to amend or update this Privacy Policy at any time. Any updates will be published on the Platform along with the revised effective date."
+      },
+      "contactUs": {
+        "title": "11. Contact Us",
+        "content": "If you have any questions, requests, or concerns regarding this Privacy Policy or the processing of personal data, please contact us through the official contact channels provided on the Contact Us page or email us at info@yanaholidays.com."
       }
-    }
+    },
+    "contactTitle": "Contact Us",
+    "contactDescription": "If you have any questions about this Privacy Policy, please don't hesitate to contact us.",
+    "companyAddress": "Kingdom of Saudi Arabia"
   },
   "TermsConditions": {
-    "title": "Terms and Conditions – Tayyran",
-    "companyName": "Tayyran – Saudi Arabia",
-    "lastUpdated": "Last Updated: December 2025",
-    "agreementNotice": "By using the Tayyran website or application, you fully agree to these terms.",
-    "cardTitle": "Terms and Conditions",
-    "cardDescription": "Click on any section below to view the detailed terms",
-    "importantNoticeTitle": "Important Notice",
-    "importantNoticeDescription": "For any inquiries or complaints regarding these terms, please contact us:",
-    "companyAddress": "2339 Al Yasmin District – Anas Bin Malik Street – Office No. 10 – First Floor – Riyadh – Kingdom of Saudi Arabia",
-    "backToHome": "Back to Home",
+    "title": "Terms and Conditions",
+    "companyName": "YANA Holidays",
+    "agreementNotice": "Please read these Terms and Conditions carefully before using the platform. By accessing, registering, or using any of the services provided through the platform, you acknowledge and agree to be bound by these Terms and Conditions.",
+    "lastUpdated": "Last Updated: January 2026",
+    "cardTitle": "Terms & Conditions",
+    "cardDescription": "Please review the following terms carefully. These terms govern your use of the YANA Holidays platform and services.",
     "sections": {
-      "introductionAgreement": {
-        "title": "Introduction and Agreement Acceptance",
-        "content": "These terms and conditions constitute a legally binding agreement between QUSA Travel and Tourism Company, as the owner and operator of the Tayyran platform, and any person who accesses, uses, or benefits from any service available through the website or affiliated applications.",
+      "definitions": {
+        "title": "1. Definitions",
+        "content": "For the purposes of these Terms and Conditions, the following definitions shall apply:",
         "points": [
-          "Using the platform by any means constitutes explicit acknowledgment of the user's full and unconditional acceptance of all terms of this agreement",
-          "User's acknowledgment of possessing full legal capacity to enter into this agreement",
-          "User must be 18 years of age or older to use the service"
+          "Platform: YANA Holidays and all related websites, systems, applications, and services.",
+          "User: Any individual, travel agency, company, or entity accessing or using the Platform.",
+          "Services: All flight bookings, hotel reservations, travel-related products, and services made available through the Platform.",
+          "Service Provider: Airlines, hotels, suppliers, and partners providing services through the Platform."
         ]
       },
-      "platformNature": {
-        "title": "Nature of Platform's Role",
-        "content": "Tayyran platform operates as an independent electronic intermediary enabling users to search and book travel services provided by third parties.",
+      "eligibility": {
+        "title": "2. Eligibility",
+        "content": "The User confirms that they have the legal capacity and authority required to use the Platform and enter into commercial transactions, and that all information provided is accurate, complete, and up to date."
+      },
+      "accountRegistration": {
+        "title": "3. Account Registration",
+        "content": "Users must register an account to access certain features of the Platform.",
         "points": [
-          "Services include – without limitation – airlines, hotels, and accommodation service providers",
-          "The platform is not in any case considered an air carrier, operator, or owner of any hotel facility",
-          "Responsibility for service execution, quality, and continuity lies entirely with the relevant service provider",
-          "The platform operates as a technical intermediary and does not bear responsibility for service execution"
+          "Users must provide accurate and complete information when creating an account.",
+          "Users are responsible for maintaining the confidentiality of their login credentials.",
+          "Sharing account access with unauthorized parties is prohibited.",
+          "YANA Holidays reserves the right to suspend or terminate any account in cases of suspected unauthorized use, fraud, or violation of these Terms."
         ]
       },
-      "termsModification": {
-        "title": "Terms Modification",
-        "content": "The company may modify the terms at any time without prior notice. Continued use constitutes explicit acceptance of the modified terms.",
+      "useOfPlatform": {
+        "title": "4. Use of the Platform",
+        "content": "Users agree to use the Platform only for lawful purposes and in a manner that does not compromise the security, functionality, or availability of the Platform.",
         "points": [
-          "Terms may be modified at any time without prior notice",
-          "Modifications become effective immediately upon publication on the platform",
-          "Modifications do not apply retroactively to bookings confirmed before the modification date",
-          "Continued use of the platform after modifications constitutes acceptance of the amended terms"
+          "Using the Platform in violation of applicable laws and regulations is prohibited.",
+          "Attempting unauthorized access to systems, accounts, or data is strictly forbidden.",
+          "Uploading or transmitting harmful, fraudulent, or unlawful content is not allowed.",
+          "Manipulating bookings, prices, or services in any unauthorized manner is prohibited."
         ]
       },
-      "websiteAvailability": {
-        "title": "Website Availability",
-        "content": "We strive to provide uninterrupted service, but we do not guarantee it will be free from technical failures or downtime. The site may be suspended for periodic maintenance or technical updates without prior notice."
-      },
-      "disclaimer": {
-        "title": "Disclaimer",
-        "content": "Tayyran is not responsible for:",
+      "bookingsPricing": {
+        "title": "5. Bookings and Pricing",
+        "content": "All bookings made through the Platform are subject to specific terms and conditions.",
         "points": [
-          "Technical errors",
-          "Payment failures",
-          "Service disruptions",
-          "Losses resulting from use",
-          "Flight and accommodation services are subject to providers' terms and relevant international agreements",
-          "Applicable agreements include the Montreal Convention for air transport",
-          "The platform is not responsible for any errors or omissions in displayed information"
+          "All bookings are subject to availability at the time of confirmation.",
+          "Prices displayed on the Platform may change until the booking is successfully confirmed.",
+          "Airlines, hotels, and other service providers may apply their own terms and conditions.",
+          "Users are responsible for reviewing and verifying all booking details before confirmation."
         ]
       },
-      "liabilityLimits": {
-        "title": "Financial Liability Limits",
-        "content": "To the maximum extent permitted by law, Tayyran shall not be liable for any direct, indirect, consequential, or special damages, including loss of profits, data, or opportunities, resulting from using the platform or inability to use it. In all cases, if Tayyran's liability is legally established, the maximum limit of such liability shall not exceed the value of the amount actually paid by the user for the disputed booking."
+      "amendmentsCancellationsRefunds": {
+        "title": "6. Amendments, Cancellations, and Refunds",
+        "content": "Amendments, cancellations, and refund requests are subject to the policies and conditions of the relevant Service Provider and may be subject to additional fees or charges."
       },
-      "acceptableBehavior": {
-        "title": "Acceptable Behavior",
-        "content": "The following activities are strictly prohibited:",
+      "travelAgenciesCorporate": {
+        "title": "7. Travel Agencies and Corporate Users",
+        "content": "The Platform is intended for authorized travel agencies and corporate users. Additional terms apply:",
         "points": [
-          "Fake bookings",
-          "Unauthorized access attempts",
-          "Posting offensive content",
-          "Uploading malicious files",
-          "Using robots or automated copying tools",
-          "Violation of intellectual property rights",
-          "Prohibited: Making fictitious or speculative bookings",
-          "Prohibited: Attempting to hack systems or using automated tools or copying software",
-          "Prohibited: Publishing content that violates or infringes intellectual property rights",
-          "Prohibited: Using the platform for illegal purposes or in violation of regulations",
-          "User must be 18 years of age or older",
-          "User is committed to accuracy of information provided during booking"
+          "Users are fully responsible for all activities conducted through their accounts.",
+          "Users must provide accurate booking information and service details to their clients.",
+          "Users are solely responsible for managing their commercial relationships with their customers.",
+          "YANA Holidays reserves the right to suspend or terminate access to the Platform in cases of policy violations or misuse."
         ]
       },
-      "flightBookings": {
-        "title": "Flight Bookings and Travel Requirements",
-        "content": "Flight bookings are subject to the following conditions:",
-        "points": [
-          "User bears full responsibility for accuracy of traveler data and its conformity with passports",
-          "Responsibility for visa issuance, passport validity, and health requirements lies solely with the traveler",
-          "Displayed prices may not include some fees or local taxes collected directly by relevant authorities",
-          "In case of traveler no-show, airline policies apply",
-          "User is not entitled to claim any compensation from Tayyran platform due to no-show",
-          "Bookings are subject to specific airline terms and prices at time of booking"
-        ]
+      "intellectualProperty": {
+        "title": "8. Intellectual Property",
+        "content": "All intellectual property rights related to the Platform, including trademarks, logos, content, software, designs, and materials, are owned by or licensed to YANA Holidays and may not be copied, reproduced, distributed, or used without prior written consent."
       },
-      "accommodationBookings": {
-        "title": "Accommodation Bookings (Hotels and Others)",
-        "content": "Accommodation bookings are subject to the following conditions:",
+      "limitationOfLiability": {
+        "title": "9. Limitation of Liability",
+        "content": "YANA Holidays shall not be liable for:",
         "points": [
-          "Hotel facility classifications are indicative and subject to local standards of each country",
-          "Some establishments may impose additional fees such as resort fees or city taxes paid directly upon check-in",
-          "Displayed photos and descriptions are provided by service providers, and the platform does not guarantee their complete conformity with reality",
-          "Any special requests are sent as non-binding requests to the service provider",
-          "Check-in and check-out times are subject to hotel establishment policies",
-          "Some offers may be non-refundable or non-modifiable according to hotel policy"
-        ]
-      },
-      "serviceFees": {
-        "title": "Service Fees and Booking Management",
-        "content": "The platform applies service fees for providing booking services and technical support:",
-        "points": [
-          "User acknowledges that displayed prices may include service fees imposed by Tayyran platform",
-          "Service fees are for technical connectivity and providing booking services and technical support",
-          "These fees are non-refundable upon booking cancellation, unless otherwise stated",
-          "If user requests booking modifications, the platform has the right to impose additional administrative fees",
-          "Administrative fees include any price differences or penalties imposed by the service provider",
-          "User is informed of additional fees before confirming any modifications"
-        ]
-      },
-      "refundPolicy": {
-        "title": "Financial Refund Policy",
-        "content": "Refund processes are subject to the following policies and conditions:",
-        "points": [
-          "All refunds are subject to the original service provider's policies",
-          "If the service is non-refundable according to provider's policy, the platform cannot refund any amounts to the user",
-          "Refunds are processed through the original payment method",
-          "Refund period may take from 7 to 21 working days, or more depending on bank and provider procedures",
-          "The platform reserves the right to deduct fixed processing fees or a percentage of the refunded amount",
-          "Maximum processing fee is 5% of the refunded amount",
-          "Fees include processing costs, bank transfers, and any penalties imposed by the provider"
-        ]
-      },
-      "providerChanges": {
-        "title": "Changes by Service Provider",
-        "content": "In case the service provider makes changes to the booking:",
-        "points": [
-          "If airline or hotel cancels or modifies the booking, the platform's role is limited to informing the user",
-          "Notification occurs immediately upon receiving official notice from the provider",
-          "The platform bears no legal or financial responsibility towards the user resulting from these changes",
-          "The case is handled according to the relevant provider's policy",
-          "Platform service fees remain non-refundable in all cases",
-          "User has the right to contact the service provider directly to follow up on claims"
-        ]
-      },
-      "paymentsFraud": {
-        "title": "Fraud Management",
-        "content": "The company has the right to:",
-        "points": [
-          "Cancel suspicious bookings",
-          "Suspend accounts",
-          "Take legal actions",
-          "Impose 5% fees on exploitative cancellations",
-          "Deduction occurs immediately upon booking confirmation using approved payment methods",
-          "User is responsible for any unauthorized use of their payment methods",
-          "In case of suspected fraudulent activity, the platform has the right to cancel the booking immediately",
-          "The platform has the right to suspend or close the suspected account",
-          "Necessary legal procedures are taken against any fraudulent activity",
-          "All transactions are monitored for security and fraud prevention purposes"
-        ]
-      },
-      "forceMajeure": {
-        "title": "Force Majeure",
-        "content": "Tayyran bears no responsibility in cases of force majeure:",
-        "points": [
-          "Not responsible for delay or non-performance resulting from circumstances beyond its control",
-          "Force majeure circumstances include natural disasters and pandemics",
-          "Include government decisions and airspace closures",
-          "Include strikes and civil disturbances",
-          "Include major technical accidents beyond the platform's control",
-          "In such cases, relevant service providers' policies apply"
+          "Flight delays, cancellations, schedule changes, or service disruptions caused by airlines.",
+          "Changes, cancellations, or service issues related to hotels or other suppliers.",
+          "Events beyond reasonable control, including natural disasters, governmental actions, technical failures, or force majeure events.",
+          "Any indirect, incidental, consequential, or special damages arising from the use of the Platform or its Services."
         ]
       },
       "indemnification": {
-        "title": "Indemnification",
-        "content": "You agree to compensate the company for any losses resulting from misuse of the platform. User agrees to indemnify and hold Tayyran harmless from any claims, losses, or damages arising from violation of these terms, providing incorrect information, or misuse of the platform. This includes all legal expenses and costs related to any lawsuits or claims."
+        "title": "10. Indemnification",
+        "content": "Users agree to indemnify and hold harmless YANA Holidays, its affiliates, employees, and partners from any claims, losses, damages, liabilities, costs, or expenses arising from their breach of these Terms or misuse of the Platform."
       },
-      "intellectualProperty": {
-        "title": "Intellectual Property",
-        "content": "All website content is owned by Tayyran. Copying or republishing without permission is prohibited. All platform content, trademarks, and designs are protected under applicable intellectual property laws in the Kingdom of Saudi Arabia and other countries. Their use, republication, copying, or modification by any means is prohibited without prior written permission from QUSA Travel and Tourism Company."
+      "amendmentsToTerms": {
+        "title": "11. Amendments to the Terms",
+        "content": "YANA Holidays reserves the right to modify or update these Terms and Conditions at any time. Continued use of the Platform following any updates constitutes acceptance of the revised Terms."
       },
-      "termsValidity": {
-        "title": "Terms Validity and Agreement Continuity",
-        "content": "If any provision of this agreement is invalidated or deemed unenforceable by a competent court, the remaining provisions shall remain in full force and effect. Invalidity of any provision does not affect the validity or enforceability of any other provision of this agreement."
+      "suspensionTermination": {
+        "title": "12. Suspension and Termination",
+        "content": "YANA Holidays may suspend, restrict, or terminate access to the Platform at its sole discretion if a User violates these Terms or if such action is required for legal, security, or operational reasons."
       },
-      "lawJurisdiction": {
-        "title": "Law and Jurisdiction",
-        "content": "These terms are subject to the laws of the Kingdom of Saudi Arabia, and its courts have jurisdiction over any disputes. This agreement is governed by the laws and regulations of the Kingdom of Saudi Arabia. The courts of the Kingdom of Saudi Arabia have exclusive jurisdiction to consider any dispute or disagreement arising from the interpretation or implementation of this agreement. The user expressly agrees to the exclusive judicial jurisdiction of the courts of the Kingdom of Saudi Arabia."
+      "governingLawJurisdiction": {
+        "title": "13. Governing Law and Jurisdiction",
+        "content": "These Terms and Conditions shall be governed by and construed in accordance with the laws and regulations of the Kingdom of Saudi Arabia. Any disputes arising out of or relating to these Terms shall be subject to the exclusive jurisdiction of the competent courts of the Kingdom of Saudi Arabia."
+      },
+      "contactInformation": {
+        "title": "14. Contact Information",
+        "content": "For any questions regarding these Terms and Conditions, please contact us through the official contact channels provided on the 'Contact Us' page or email us at info@tayyran.com."
       }
-    }
+    },
+    "importantNoticeTitle": "Important Notice",
+    "importantNoticeDescription": "These Terms and Conditions constitute a legally binding agreement between you and YANA Holidays. By using our platform, you agree to comply with all the terms outlined above.",
+    "companyAddress": "Kingdom of Saudi Arabia"
   },
   "ResetPassword": {
     "title": "Reset Password",

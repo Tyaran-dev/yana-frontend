@@ -90,7 +90,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <MessageCircle className="w-5 h-5" />
-              966XXXXX
+              966920032065
             </Link>
 
             {!user ? (

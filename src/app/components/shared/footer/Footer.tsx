@@ -11,6 +11,7 @@ import {
   FaLinkedinIn,
   FaYoutube,
   FaInstagram,
+  FaTiktok
 } from 'react-icons/fa';
 
 import {
@@ -25,25 +26,24 @@ const Footer = () => {
   const [email, setEmail] = useState('');
 
   const links = [
-    { href: 'aboutUs', label: t('company.about') },
-    { href: '#', label: t('company.order') },
+    { href: 'about-us', label: t('company.about') },
+    // { href: '#', label: t('company.order') },
     { href: '#', label: t('company.contact') },
-    { href: '#', label: t('company.faq') },
+    // { href: '#', label: t('company.faq') },
   ];
 
   const legalLinks = [
     { href: 'termsandconditions', label: t('legal.terms') },
     { href: 'privacypolicy', label: t('legal.privacy') },
-    { href: '#', label: t('legal.cookies') },
-    { href: '#', label: t('legal.developers') },
+
   ];
 
   const socialLinks = [
-    { href: '#', icon: FaFacebookF, label: 'Facebook' },
-    { href: '#', icon: FaTwitter, label: 'Twitter' },
-    { href: 'https://www.linkedin.com/company/tayyran/posts/?feedView=all', icon: FaLinkedinIn, label: 'LinkedIn' },
-    { href: '#', icon: FaYoutube, label: 'YouTube' },
-    { href: '#', icon: FaInstagram, label: 'Instagram' },
+    // { href: '#', icon: FaFacebookF, label: 'Facebook' },
+    { href: 'https://x.com/yanaholidays?s=11', icon: FaTwitter, label: 'Twitter' },
+    { href: ' https://www.linkedin.com/company/yanaholidays/', icon: FaLinkedinIn, label: 'LinkedIn' },
+    { href: 'https://www.tiktok.com/@yana.holidays?_r=1&_t=ZS-977TPj68PtS', icon:   FaTiktok, label: 'TikTok' },
+    { href: 'https://www.instagram.com/yana.holidays?igsh=dHZwMjU5dHd0aHA5&utm_source=qr', icon: FaInstagram, label: 'Instagram' },
   ];
 
   return (
@@ -148,7 +148,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <p className="text-xs uppercase tracking-wider text-white/50">{t('contact.phone')}</p>
-                    <p className="text-sm text-white/90">966xxxxxxx</p>
+                    <p className="text-sm text-white/90">966920032065</p>
                   </div>
                 </li>
 
@@ -171,7 +171,7 @@ const Footer = () => {
         {/* BOTTOM */}
         <div className="border-t border-white/10 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
           <p className="text-white/50">
-            © {new Date().getFullYear()} Tayyran. {t('copyright')}
+            © {new Date().getFullYear()} YanaHolidays. {t('copyright')}
           </p>
 
           <p className="text-white/50">

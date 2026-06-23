@@ -26,7 +26,11 @@ import {
   FaMoneyBillWave,
   FaGlobe,
   FaBan,
-  FaBalanceScale
+  FaBalanceScale,
+  FaUsers,
+  FaBook,
+  FaGavel as FaJustice,
+  FaQuestionCircle
 } from "react-icons/fa";
 
 export default function TermsConditionsPage() {
@@ -42,106 +46,51 @@ export default function TermsConditionsPage() {
 
   const sections = [
     {
-      id: "introduction-agreement",
-      icon: FaFileContract,
-      title: t("sections.introductionAgreement.title"),
-      content: t("sections.introductionAgreement.content"),
-      points: t.raw("sections.introductionAgreement.points")
+      id: "definitions",
+      icon: FaBook,
+      title: t("sections.definitions.title"),
+      content: t("sections.definitions.content"),
+      points: t.raw("sections.definitions.points")
     },
     {
-      id: "platform-nature",
-      icon: FaInfoCircle,
-      title: t("sections.platformNature.title"),
-      content: t("sections.platformNature.content"),
-      points: t.raw("sections.platformNature.points")
+      id: "eligibility",
+      icon: FaUserCheck,
+      title: t("sections.eligibility.title"),
+      content: t("sections.eligibility.content")
     },
     {
-      id: "terms-modification",
-      icon: FaSyncAlt,
-      title: t("sections.termsModification.title"),
-      content: t("sections.termsModification.content"),
-      points: t.raw("sections.termsModification.points")
-    },
-    {
-      id: "website-availability",
-      icon: FaServer,
-      title: t("sections.websiteAvailability.title"),
-      content: t("sections.websiteAvailability.content")
-    },
-    {
-      id: "disclaimer",
-      icon: FaShieldAlt,
-      title: t("sections.disclaimer.title"),
-      content: t("sections.disclaimer.content"),
-      points: t.raw("sections.disclaimer.points")
-    },
-    {
-      id: "liability-limits",
-      icon: FaBalanceScale,
-      title: t("sections.liabilityLimits.title"),
-      content: t("sections.liabilityLimits.content")
-    },
-    {
-      id: "acceptable-behavior",
+      id: "account-registration",
       icon: FaUserShield,
-      title: t("sections.acceptableBehavior.title"),
-      content: t("sections.acceptableBehavior.content"),
-      points: t.raw("sections.acceptableBehavior.points")
+      title: t("sections.accountRegistration.title"),
+      content: t("sections.accountRegistration.content"),
+      points: t.raw("sections.accountRegistration.points")
     },
     {
-      id: "flight-bookings",
-      icon: FaPlane,
-      title: t("sections.flightBookings.title"),
-      content: t("sections.flightBookings.content"),
-      points: t.raw("sections.flightBookings.points")
+      id: "use-of-platform",
+      icon: FaGlobe,
+      title: t("sections.useOfPlatform.title"),
+      content: t("sections.useOfPlatform.content"),
+      points: t.raw("sections.useOfPlatform.points")
     },
     {
-      id: "accommodation-bookings",
-      icon: FaHotel,
-      title: t("sections.accommodationBookings.title"),
-      content: t("sections.accommodationBookings.content"),
-      points: t.raw("sections.accommodationBookings.points")
-    },
-    {
-      id: "service-fees",
+      id: "bookings-pricing",
       icon: FaCreditCard,
-      title: t("sections.serviceFees.title"),
-      content: t("sections.serviceFees.content"),
-      points: t.raw("sections.serviceFees.points")
+      title: t("sections.bookingsPricing.title"),
+      content: t("sections.bookingsPricing.content"),
+      points: t.raw("sections.bookingsPricing.points")
     },
     {
-      id: "refund-policy",
-      icon: FaMoneyBillWave,
-      title: t("sections.refundPolicy.title"),
-      content: t("sections.refundPolicy.content"),
-      points: t.raw("sections.refundPolicy.points")
-    },
-    {
-      id: "provider-changes",
+      id: "amendments-cancellations-refunds",
       icon: FaSyncAlt,
-      title: t("sections.providerChanges.title"),
-      content: t("sections.providerChanges.content"),
-      points: t.raw("sections.providerChanges.points")
+      title: t("sections.amendmentsCancellationsRefunds.title"),
+      content: t("sections.amendmentsCancellationsRefunds.content")
     },
     {
-      id: "payments-fraud",
-      icon: FaExclamationTriangle,
-      title: t("sections.paymentsFraud.title"),
-      content: t("sections.paymentsFraud.content"),
-      points: t.raw("sections.paymentsFraud.points")
-    },
-    {
-      id: "force-majeure",
-      icon: FaBan,
-      title: t("sections.forceMajeure.title"),
-      content: t("sections.forceMajeure.content"),
-      points: t.raw("sections.forceMajeure.points")
-    },
-    {
-      id: "indemnification",
-      icon: FaHandshake,
-      title: t("sections.indemnification.title"),
-      content: t("sections.indemnification.content")
+      id: "travel-agencies-corporate",
+      icon: FaUsers,
+      title: t("sections.travelAgenciesCorporate.title"),
+      content: t("sections.travelAgenciesCorporate.content"),
+      points: t.raw("sections.travelAgenciesCorporate.points")
     },
     {
       id: "intellectual-property",
@@ -150,16 +99,41 @@ export default function TermsConditionsPage() {
       content: t("sections.intellectualProperty.content")
     },
     {
-      id: "terms-validity",
-      icon: FaCheckCircle,
-      title: t("sections.termsValidity.title"),
-      content: t("sections.termsValidity.content")
+      id: "limitation-of-liability",
+      icon: FaBalanceScale,
+      title: t("sections.limitationOfLiability.title"),
+      content: t("sections.limitationOfLiability.content"),
+      points: t.raw("sections.limitationOfLiability.points")
     },
     {
-      id: "law-jurisdiction",
-      icon: FaGavel,
-      title: t("sections.lawJurisdiction.title"),
-      content: t("sections.lawJurisdiction.content")
+      id: "indemnification",
+      icon: FaHandshake,
+      title: t("sections.indemnification.title"),
+      content: t("sections.indemnification.content")
+    },
+    {
+      id: "amendments-to-terms",
+      icon: FaSyncAlt,
+      title: t("sections.amendmentsToTerms.title"),
+      content: t("sections.amendmentsToTerms.content")
+    },
+    {
+      id: "suspension-termination",
+      icon: FaBan,
+      title: t("sections.suspensionTermination.title"),
+      content: t("sections.suspensionTermination.content")
+    },
+    {
+      id: "governing-law-jurisdiction",
+      icon: FaJustice,
+      title: t("sections.governingLawJurisdiction.title"),
+      content: t("sections.governingLawJurisdiction.content")
+    },
+    {
+      id: "contact-information",
+      icon: FaQuestionCircle,
+      title: t("sections.contactInformation.title"),
+      content: t("sections.contactInformation.content")
     }
   ];
 
@@ -168,7 +142,7 @@ export default function TermsConditionsPage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
-          <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 bg-greenGradient rounded-full mb-6 shadow-lg">
+          <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#016733] to-[#1c1466] rounded-full mb-6 shadow-lg">
             <FaFileContract className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
           </div>
 
@@ -181,7 +155,7 @@ export default function TermsConditionsPage() {
             <span className="text-sm font-semibold text-emerald-700">{t("companyName")}</span>
           </div>
 
-          <p className="text-lg font-medium text-slate-700 max-w-2xl mx-auto mb-6 p-4 bg-emerald-50 rounded-xl border border-blue-100">
+          <p className="text-lg font-medium text-slate-700 max-w-3xl mx-auto mb-6 p-4 bg-emerald-50 rounded-xl border border-emerald-200">
             {t("agreementNotice")}
           </p>
 
@@ -193,7 +167,7 @@ export default function TermsConditionsPage() {
         {/* Terms Information Card */}
         <div className="bg-white shadow-xl border border-slate-200 rounded-2xl overflow-hidden mb-8">
           {/* Card Header */}
-          <div className="border-b border-slate-200 bg-gradient-to-r from-slate-50 to-blue-50/30 p-4 sm:p-6">
+          <div className="border-b border-slate-200 bg-gradient-to-r from-slate-50 to-emerald-50/30 p-4 sm:p-6">
             <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
               {t("cardTitle")}
             </h2>
@@ -221,7 +195,7 @@ export default function TermsConditionsPage() {
                       className="w-full flex items-center justify-between p-4 sm:p-5 hover:bg-slate-50 transition-colors text-left group"
                     >
                       <div className="flex items-center gap-3 sm:gap-4">
-                        <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-emerald-50 rounded-lg flex items-center justify-center group-hover:from-blue-200 group-hover:to-indigo-200 transition-colors">
+                        <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-emerald-50 rounded-lg flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
                           <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-700" />
                         </div>
                         <div className="flex-1">
@@ -258,24 +232,41 @@ export default function TermsConditionsPage() {
                           {/* Points List */}
                           {hasPoints && (
                             <div className="mt-4 space-y-3">
-                              {hasPoints.map((point: string, index: number) => (
-                                <div key={index} className="flex items-start gap-3">
-                                  {point.startsWith("يمنع") || point.includes("prohibited") || point.includes("not allowed") ||
-                                    point.includes("غير مسؤول") || point.includes("not responsible") || point.includes("لا تتحمل") ||
-                                    point.includes("لا تضمن") || point.includes("does not guarantee") ? (
-                                    <FaTimesCircle className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />
-                                  ) : point.startsWith("يحق") || point.includes("right to") || point.includes("entitled") ||
-                                    point.includes("يتحمل") || point.includes("responsible for") || point.includes("يلتزم") ? (
-                                    <FaCheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
-                                  ) : point.includes("تخضع") || point.includes("subject to") || point.includes("يتم") ||
-                                    point.includes("processed") || point.includes("تتضمن") || point.includes("includes") ? (
-                                    <FaInfoCircle className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
-                                  ) : (
-                                    <FaInfoCircle className="w-5 h-5 text-emerald-700 mt-0.5 flex-shrink-0" />
-                                  )}
-                                  <span className="text-sm sm:text-base text-slate-700">{point}</span>
-                                </div>
-                              ))}
+                              {hasPoints.map((point: string, index: number) => {
+                                // Determine icon based on content
+                                let IconType = FaInfoCircle;
+                                let iconColor = "text-emerald-700";
+
+                                if (point.includes("يمنع") || point.includes("prohibited") || point.includes("not allowed") ||
+                                  point.includes("غير مسؤول") || point.includes("not responsible") || point.includes("لا تتحمل") ||
+                                  point.includes("لا تضمن") || point.includes("does not guarantee") ||
+                                  point.includes("غير قانوني") || point.includes("unlawful") ||
+                                  point.includes("غير مصرح") || point.includes("unauthorized") ||
+                                  point.includes("ضار") || point.includes("harmful") ||
+                                  point.includes("احتيال") || point.includes("fraud")) {
+                                  IconType = FaTimesCircle;
+                                  iconColor = "text-red-500";
+                                } else if (point.startsWith("يحق") || point.includes("right to") || point.includes("entitled") ||
+                                  point.includes("يتحمل") || point.includes("responsible for") || point.includes("يلتزم") ||
+                                  point.includes("حق") || point.includes("reserves the right") ||
+                                  point.includes("يجب") || point.includes("must") || point.includes("shall")) {
+                                  IconType = FaCheckCircle;
+                                  iconColor = "text-green-500";
+                                } else if (point.includes("تخضع") || point.includes("subject to") || point.includes("يتم") ||
+                                  point.includes("processed") || point.includes("تتضمن") || point.includes("includes") ||
+                                  point.includes("تطبق") || point.includes("apply") || point.includes("قد") ||
+                                  point.includes("may") || point.includes("مشروطة") || point.includes("condition")) {
+                                  IconType = FaInfoCircle;
+                                  iconColor = "text-blue-500";
+                                }
+
+                                return (
+                                  <div key={index} className="flex items-start gap-3">
+                                    <IconType className={`w-5 h-5 ${iconColor} mt-0.5 flex-shrink-0`} />
+                                    <span className="text-sm sm:text-base text-slate-700">{point}</span>
+                                  </div>
+                                );
+                              })}
                             </div>
                           )}
                         </div>
@@ -292,7 +283,7 @@ export default function TermsConditionsPage() {
         <div className="mb-8 p-6 bg-emerald-50 border border-emerald-200 rounded-xl shadow-sm">
           <div className="flex items-start gap-4">
             <div className="flex-shrink-0">
-              <div className="w-12 h-12  bg-greenGradient rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-gradient-to-br from-[#016733] to-[#1c1466] rounded-lg flex items-center justify-center">
                 <FaRegFileAlt className="w-6 h-6 text-white" />
               </div>
             </div>
@@ -306,12 +297,12 @@ export default function TermsConditionsPage() {
               <div className="space-y-3">
                 <a
                   href="mailto:info@tayyran.com"
-                  className="inline-flex items-center gap-3 text-emerald-700 hover:text-emerald--800  font-medium text-sm sm:text-base transition-colors group"
+                  className="inline-flex items-center gap-3 text-emerald-700 hover:text-emerald-800 font-medium text-sm sm:text-base transition-colors group"
                 >
-                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center border border-blue-200 group-hover:border-blue-300 transition-colors">
+                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center border border-emerald-200 group-hover:border-emerald-300 transition-colors">
                     <FaEnvelope className="w-4 h-4" />
                   </div>
-                  <span>info@tayyran.com</span>
+                  <span>info@yanaholidays.com</span>
                 </a>
                 <div className="flex items-start gap-3 text-slate-600">
                   <FaBuilding className="w-4 h-4 mt-1 flex-shrink-0 text-emerald-700" />
@@ -323,7 +314,6 @@ export default function TermsConditionsPage() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

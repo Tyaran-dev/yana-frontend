@@ -11,7 +11,8 @@ import {
     FaHeart,
     FaAward,
     FaUsers,
-    FaMagic
+    FaMagic,
+    FaHandshake
 } from 'react-icons/fa';
 import { CiPlane } from "react-icons/ci";
 
@@ -50,7 +51,6 @@ export default function Home() {
                         </div>
                         <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight drop-shadow-2xl">
                             {t('title')}
-
                         </h1>
                         <p className="text-xl sm:text-2xl text-white/95 max-w-3xl mx-auto leading-relaxed drop-shadow-lg font-light">
                             {t('subtitle')}
@@ -94,14 +94,14 @@ export default function Home() {
                         <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
                             <div className="flex items-start space-x-4">
                                 <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-[#016733]/10 flex items-center justify-center m-4">
-                                    <FaChartLine className="w-6 h-6 text-[#016733]" />
+                                    <FaHandshake className="w-6 h-6 text-[#016733]" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                                        {t('ourVision.cards.leadingPlatform.title')}
+                                        {t('ourVision.cards.strongPartnerships.title')}
                                     </h3>
                                     <p className="text-slate-600 leading-relaxed">
-                                        {t('ourVision.cards.leadingPlatform.description')}
+                                        {t('ourVision.cards.strongPartnerships.description')}
                                     </p>
                                 </div>
                             </div>
@@ -114,10 +114,10 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                                        {t('ourVision.cards.vision2030.title')}
+                                        {t('ourVision.cards.industryExpertise.title')}
                                     </h3>
                                     <p className="text-slate-600 leading-relaxed">
-                                        {t('ourVision.cards.vision2030.description')}
+                                        {t('ourVision.cards.industryExpertise.description')}
                                     </p>
                                 </div>
                             </div>
@@ -146,7 +146,9 @@ export default function Home() {
                                 className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                             >
                                 <div className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center bg-gradient-to-br from-[#016733] to-[#016733]/80">
-                                    <FaPlane className="w-7 h-7 text-white" />
+                                    {index === 0 && <FaPlane className="w-7 h-7 text-white" />}
+                                    {index === 1 && <FaHotel className="w-7 h-7 text-white" />}
+                                    {index === 2 && <FaClock className="w-7 h-7 text-white" />}
                                 </div>
                                 <h3 className="text-xl font-semibold text-slate-900 mb-2">
                                     {service.title}
@@ -184,8 +186,8 @@ export default function Home() {
                                     <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#016733]/10 mb-3">
                                         <FaUsers className="w-6 h-6 text-[#016733]" />
                                     </div>
-                                    <h4 className="font-semibold text-slate-900 mb-1">{t('whyChooseUs.features.userFocused.title')}</h4>
-                                    <p className="text-sm text-slate-600">{t('whyChooseUs.features.userFocused.description')}</p>
+                                    <h4 className="font-semibold text-slate-900 mb-1">{t('whyChooseUs.features.partnerSupport.title')}</h4>
+                                    <p className="text-sm text-slate-600">{t('whyChooseUs.features.partnerSupport.description')}</p>
                                 </div>
 
                                 <div className="text-center">
